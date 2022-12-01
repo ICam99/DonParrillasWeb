@@ -1,0 +1,42 @@
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+div {
+	
+	
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #7DCEA0, #27AE60, #17A589, rgb(20, 143, 119));
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+
