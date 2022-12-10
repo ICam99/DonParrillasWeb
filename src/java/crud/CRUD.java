@@ -6,6 +6,7 @@
 package crud;
 
 import java.sql.Connection;
+//import com.mysql.jdbc.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -53,11 +54,11 @@ public class CRUD {
         // Step 4: try-with-resource statement will auto close the connection.
     }
 
-    public void insertRecord() throws SQLException {
-        int id = 0;
-        String nombre = null;
-        int cantidad = 0;
-        String categoria = null;
+    public void insertRecord(int id, String nombre, int cantidad, String categoria) throws SQLException {
+//        int id = 0;
+//        String nombre = null;
+//        int cantidad = 0;
+//        String categoria = null;
 
         System.out.println(INSERT_INSUMOS_SQL);
         // Step 1: Establishing a Connection

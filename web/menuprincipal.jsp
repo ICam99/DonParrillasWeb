@@ -3,7 +3,7 @@
     Created on : 29/11/2022, 09:55:21 PM
     Author     : hp
 --%>
-
+<%@page import="crud.CRUD"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -70,10 +70,11 @@ and open the template in the editor.
 
         </style>
     </head>
-    <body>
+    <body>        
+
         <div id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
+                <li><a href="menuprincipal.jsp">Inicio</a></li>
                 <li><a href="">Dar de alta</a>
                     <ul>
                         <li><a href="altaInsumos.jsp">Insumos</a></li>
@@ -96,5 +97,7 @@ and open the template in the editor.
                 </li>
             </ul>
         </div>
+
+
     </body>
 </html>
